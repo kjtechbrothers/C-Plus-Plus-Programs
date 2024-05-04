@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"Enter the number of the student=";
+	cin>>n;
+	if(n>=48)
+	cout<<"A Grade";
+	else if(n<48)
+	cout<<"B Grade";
+	else if(n<38)
+	cout<<"C Grade";
+	else
+	cout<<"D Grade";
+	return 0;
+}
